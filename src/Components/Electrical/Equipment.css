@@ -19,6 +19,13 @@
     bottom: 0;
 }
 
+@media(max-width:1500px) {
+    .title {
+        font-size: 0.7rem;
+        font-weight: 200;
+    }
+}
+
 @media(max-width:1300px) {
     .title {
         font-size: 0.7rem;
@@ -45,7 +52,7 @@
 @media(max-width:500px) {
     .electrical-component {
         width: 4.5rem;
-        height: 3rem;
+        height: 4.5rem;
     }
     .title {
         display: none;
