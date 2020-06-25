@@ -1,0 +1,25 @@
+.electrical-container {
+    margin: 5rem 13rem 10rem 13rem;
+    padding: 0 10px;
+}
+
+.legend {
+    position: absolute;
+    direction: rtl;
+    justify-content: right;
+}
+
+.top {
+    display: flex;
+    justify-content: space-around;
+}
+
+.middle {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-around;
+}
