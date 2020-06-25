@@ -12,7 +12,6 @@ import LoadForm from '../EntryForm/LoadForm'
 import LoadConnector from '../Connector/LoadConnector'
 import BatteryForm from '../EntryForm/BatteryForm'
 import BatteryConnector from '../Connector/BatteryConnector'
-import GridInfo from '../Info/GridInfo'
 
 
 export const ElectricContext = createContext()
@@ -292,7 +291,6 @@ class ElectricalContainer extends Component {
                 <div className="top">
                     <Equipment title="Grid" image="https://res.cloudinary.com/rajangyawali/image/upload/v1592986146/solarproject/electrical_grid_apqj7y.jpg" click={this.gridFormOpenHandler}/>
                     <GridForm submit={this.gridSubmitHandler}/>
-                    <GridInfo/>
                 </div>
                 <div className="top">
                     <GridConnector status={this.state.gridConnection}/>
